@@ -9,3 +9,41 @@
 
 ![image](https://github.com/caikunyou/LED/blob/master/GPIO-Pinout-Diagram-2.png)
 
+* LED_R---------pin36           *
+* LED_G---------pin38           *
+* LED_B---------pin40           *
+* GND-----------pin6            *
+
+
+代码（実行方法）
+```
+$ make
+$ sudo insmod myled.ko
+$ sudo chmod 666 /dev/myled0
+$ sudo echo R > /dev/myled0
+$ sudo echo G > /dev/myled0
+$ sudo echo B > /dev/myled0
+$ sudo echo C > /dev/myled0
+$ sudo rmmod myled.ko
+```
+说明：
+LED RED红色的时候 
+LED 赤色の時が
+```
+$ sudo echo R > /dev/myled0
+```
+LED green绿色的时候 
+LED 緑色の時が
+```
+$ sudo echo  G > /dev/myled0
+```
+LED BLUE蓝色的时候 
+LED 青色の時が
+```
+$ sudo echo B > /dev/myled0
+```
+结束需要卸载模块
+```
+sudo rmmod myled.ko
+```
+
