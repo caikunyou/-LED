@@ -28,20 +28,24 @@ $ sudo rmmod myled.ko
 ```
 说明：
 LED RED红色的时候 
+
 LED 赤色の時が
 ```
 $ sudo echo R > /dev/myled0
 ```
 LED green绿色的时候 
+
 LED 緑色の時が
 ```
 $ sudo echo  G > /dev/myled0
 ```
 LED BLUE蓝色的时候 
+
 LED 青色の時が
 ```
 $ sudo echo B > /dev/myled0
 ```
+
 结束需要卸载模块
 ```
 sudo rmmod myled.ko
