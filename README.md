@@ -4,6 +4,8 @@
 # 使用方法
 
   - RGB LED X1
-  - raspberry 3B X1
 ![image](https://github.com/caikunyou/LED/blob/master/led.png)
-  
+  - raspberry 3B X1
+
+![image](https://github.com/caikunyou/LED/blob/master/GPIO-Pinout-Diagram-2.png)
+
