@@ -9,7 +9,6 @@
 ![image](https://github.com/caikunyou/LED/blob/master/led.png)
   - raspberry 3B X1
 
-![image](https://github.com/caikunyou/LED/blob/master/GPIO-Pinout-Diagram-2.png)
 
 * LED_R---------pin36           *
 * LED_G---------pin38           *
