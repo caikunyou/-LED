@@ -7,8 +7,8 @@
 
   - RGB LED X1
 ![image](https://github.com/caikunyou/LED/blob/master/led.png)
-  - raspberry 3B X1
-
+  - raspberry 2B X1
+![image]（https://github.com/caikunyou/LED/blob/master/GPIO.png）
 
 * LED_R---------pin36           *
 * LED_G---------pin38           *
